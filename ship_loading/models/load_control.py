@@ -21,6 +21,12 @@ class load_control(models.Model):
     hold4_unload = fields.Integer(string='Bodega 4')
     hold5_unload = fields.Integer(string='Bodega 5')
     hold6_unload = fields.Integer(string='Bodega 6')
+    hold7_unload = fields.Integer(string='Bodega 7')
+    hold8_unload = fields.Integer(string='Bodega 8')
+    hold9_unload = fields.Integer(string='Bodega 9')
+    hold10_unload = fields.Integer(string='Bodega 10')
+    hold11_unload = fields.Integer(string='Bodega 11')
+    hold12_unload = fields.Integer(string='Bodega 12')
 
     ship_data_id = fields.Many2one('ship.data', string='Info del buque')
 

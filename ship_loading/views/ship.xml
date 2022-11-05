@@ -27,11 +27,13 @@
                                     <field name="ship_capacity" />
                                     <field name="hold_quantity" />
                                     <field name="ship_stage" />
+                                    <field name="hold_cargo1" />
+                                    <field name="hold_cargo2" />
                                 </group>
                             </page>
                             <page name="load_plan" string="Plan de carga">
                                 <!-- <group> -->
-                                    <field name="ship_load_control" />
+                                    <field name="load_control_id" />
                                 <!-- </group> -->
                             </page>
                         </notebook>
